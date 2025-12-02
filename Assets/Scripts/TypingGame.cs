@@ -14,6 +14,7 @@ public class TypingGame : MonoBehaviour
     void Awake()
     {
         Instance = this;
+        Activate();
     }
     
     public void Activate()
@@ -39,8 +40,7 @@ public class TypingGame : MonoBehaviour
     
     void Update()
     {
-        if (!isActive) return;
-        
+        if (!isActive == true) return;
         foreach (char c in Input.inputString)
         {
             if (char.ToUpper(c) == currentLetter)
