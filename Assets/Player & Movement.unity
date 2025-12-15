@@ -617,6 +617,7 @@ GameObject:
   m_Component:
   - component: {fileID: 784986437}
   - component: {fileID: 784986438}
+  - component: {fileID: 784986439}
   m_Layer: 0
   m_Name: PCZone
   m_TagString: PCZone
@@ -660,6 +661,18 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &784986439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 784986436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8732cac8d71e0f948b86299776afce61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PCZoneTrigger
 --- !u!1 &1012357463
 GameObject:
   m_ObjectHideFlags: 0
@@ -782,6 +795,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1456453396}
   - component: {fileID: 1456453397}
+  - component: {fileID: 1456453398}
   m_Layer: 0
   m_Name: CoffeeZone
   m_TagString: CoffeeZone
@@ -825,6 +839,18 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1456453398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1456453395}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9dc582dd88376ac40bbcd112a18021c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CoffeeZoneTrigger
 --- !u!1001 &1652625313
 PrefabInstance:
   m_ObjectHideFlags: 0
